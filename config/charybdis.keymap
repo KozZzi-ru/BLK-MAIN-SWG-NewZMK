@@ -222,17 +222,3 @@
             >; };
     };
 };
-
-&trackball_listener {
-    // Скролл на базовом слое (layer 0)
-    scroll {
-        layers = <0>;
-        input-processors = <&zip_xy_to_scroll_mapper>;
-    };
-
-    // Снайпер на слое 3 (snipe_layer) - замедление в 3 раза для точности
-    snipe {
-        layers = <3>;
-        input-processors = <&zip_xy_scaler 1 3>;
-    };
-};
