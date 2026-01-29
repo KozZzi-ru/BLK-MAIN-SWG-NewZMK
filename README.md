@@ -8,6 +8,13 @@
 
 ---
 
+## Версии драйверов (config/west.yml)
+
+- **ZMK:** `v0.3-branch` от zmkfirmware
+- **Драйвер трекбола PMW3610:** `main` от inorichi ([zmk-pmw3610-driver](https://github.com/inorichi/zmk-pmw3610-driver))
+
+---
+
 ## Что в этой прошивке особенного
 
 ### Аппаратная основа
