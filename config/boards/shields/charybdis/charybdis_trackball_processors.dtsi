@@ -4,6 +4,7 @@
  * 
  * Trackball input processor configurations for Charybdis keyboard
  * Defines scroll, snipe, and move modes with layer bindings
+ * Dual scroll modes: fast on QWERTY, slow on NUM_AND_FUN
  */
 
 #include "charybdis_layers.h"
