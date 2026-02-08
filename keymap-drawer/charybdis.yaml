@@ -1,62 +1,7 @@
 layout: {zmk_keyboard: charybdis}
 layers:
-  QWERTY:
-  - '`'
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
-  - '-'
-  - TAB
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - '['
-  - LSHFT
-  - A
-  - S
-  - D
-  - F
-  - G
-  - H
-  - J
-  - K
-  - L
-  - SEMI
-  - APOS
-  - LCTRL
-  - Z
-  - X
-  - C
-  - V
-  - B
-  - N
-  - M
-  - ','
-  - DOT
-  - FSLH
-  - auto_mouse
-  - LGUI
-  - {t: AL CALCULATOR, h: num_and_fun}
-  - {t: ENTER, h: corrections}
-  - SPACE
-  - LEFT ALT
-  - BACK SPACE
-  - RSHIFT
-  - ENTER
+  QWERTY: ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '-', TAB, Q, W, E, R, T, Y, U, I, O, P, '[', LSHFT, A, S, D, F, G, H, J, K, L, SEMI, APOS, LCTRL,
+    Z, X, C, V, B, N, M, ',', DOT, FSLH, auto_mouse, '0', '1', '2', '3', '5', '6', '7', '8']
   num_and_fun:
   - {t: ▽, type: trans}
   - F1
@@ -107,7 +52,7 @@ layers:
   - KP DOT
   - LEFT ALT
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -167,7 +112,7 @@ layers:
   - R CLK
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - M CLK
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -224,7 +169,7 @@ layers:
   - R CLK
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - M CLK
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -279,12 +224,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - DELETE
+  - {t: ▽, type: trans}
   set_bt:
   - {t: ▽, type: trans}
   - {t: BT, h: '0'}
