@@ -270,7 +270,7 @@ jobs:
 
 ![Charybdis Keymap](https://raw.githubusercontent.com/KozZzi-ru/BLK-MAIN-SWG-NewZMK/main/keymap-drawer/charybdis.svg)
 
-Визуализация также доступна в репозитории: [keymap-drawer/charybdis.svg](https://github.com/KozZzi-ru/BLK-MAIN-SWG-NewZMK/blob/main/keymap-drawer/charybdis.svg)
+Визуализация также доступна в репозитории: [keymap-drawer/charybdis.svg](https://github.com/KozZzi-ru/BLK-MAIN-SWG-NewZMK/blob/main_NOcalc/keymap-drawer/charybdis.svg)
 
 ## Настройка чувствительности трекбола
 
