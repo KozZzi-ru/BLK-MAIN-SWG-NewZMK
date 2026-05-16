@@ -15,12 +15,10 @@
 include:
   - board: nice_nano//zmk
     shield: charybdis_left
+
   - board: nice_nano//zmk
     shield: charybdis_right
-    cmake-args:
-      - -DCONFIG_ZMK_STUDIO=y
-      - -DCONFIG_ZMK_STUDIO_TRANSPORT_USB_HID=y
-      - -DCONFIG_ZMK_STUDIO_TRANSPORT_BLE=y
-      - -DCONFIG_ZMK_STUDIO_LOCKING=n
+    snippet: studio-rpc-usb-uart
+
   - board: nice_nano//zmk
     shield: settings_reset
