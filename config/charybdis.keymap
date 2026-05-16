@@ -190,11 +190,11 @@
             >; };
 
         auto_mouse { bindings = <
-&trans  &trans     &trans     &trans  &trans     &trans         &trans  &trans  &trans     &trans     &trans            &trans
-&trans  &trans     &trans     &trans  &trans     &trans         &trans  &trans  &trans     &trans     &trans            &trans
-&trans  &trans     &trans     &trans  &trans     &trans         &trans  &trans  &trans     &trans     &trans            &trans
-&trans  &trans     &trans     &trans  &trans     &trans         &trans  &trans  &mkp LCLK  &mkp RCLK  &lt 3 SCROLLLOCK  &trans 
-        &mkp LCLK  &mkp RCLK  &trans  &trans     &mkp MCLK      &trans  &trans  &trans
+&trans  &trans     &trans     &trans  &trans     &trans         &trans      &trans  &trans     &trans     &trans            &trans
+&trans  &trans     &trans     &trans  &trans     &trans         &trans      &trans  &trans     &trans     &trans            &trans
+&trans  &trans     &trans     &trans  &trans     &trans         &trans      &trans  &trans     &trans     &trans            &trans
+&trans  &trans     &trans     &trans  &trans     &trans         &trans      &trans  &mkp LCLK  &mkp RCLK  &lt 3 SCROLLLOCK  &trans 
+        &mkp LCLK  &mkp RCLK  &trans  &trans     &mkp MCLK      &kp DELETE  &trans  &trans
             >; };
 
         snipe_layer { bindings = <
@@ -210,7 +210,7 @@
 &trans  &trans  &trans             &trans     &trans          &trans          &phrase_proshu   &trans  &trans      &trans  &trans  &trans
 &trans  &trans  &kp LC(BACKSPACE)  &kp LC(Z)  &kp LC(DELETE)  &trans          &phrase_spasibo  &trans  &trans      &trans  &trans  &trans
 &trans  &trans  &kp BACKSPACE      &kp LC(Z)  &kp DELETE      &trans          &trans           &trans  &trans      &trans  &trans  &trans
-        &trans  &trans             &trans     &trans          &trans          &trans           &trans  &kp DELETE    
+        &trans  &trans             &trans     &trans          &trans          &kp DELETE       &trans  &trans      
             >; };
 
         set_bt { bindings = <

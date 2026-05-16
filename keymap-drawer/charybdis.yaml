@@ -168,7 +168,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - M CLK
-  - {t: ▽, type: trans}
+  - DELETE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   snipe:
@@ -282,9 +282,9 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - DELETE
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   set_bt:
   - {t: ▽, type: trans}
   - {t: BT, h: '0'}
