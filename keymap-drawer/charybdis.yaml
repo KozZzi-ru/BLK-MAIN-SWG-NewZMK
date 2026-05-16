@@ -50,7 +50,7 @@ layers:
   - FSLH
   - auto_mouse
   - LGUI
-  - {t: AL CALCULATOR, h: num_and_fun}
+  - num_and_fun
   - {t: ENTER, h: corrections}
   - SPACE
   - LEFT ALT
