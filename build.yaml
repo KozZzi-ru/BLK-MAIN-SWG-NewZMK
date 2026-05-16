@@ -19,7 +19,5 @@ include:
     shield: charybdis_right
     cmake-args:
       - -DCONFIG_ZMK_STUDIO=y
-      - -DCONFIG_ZMK_STUDIO_RPC_RING_BUFFER_SIZE=2048
-      - -DCONFIG_USB_HID=y
   - board: nice_nano//zmk
     shield: settings_reset
