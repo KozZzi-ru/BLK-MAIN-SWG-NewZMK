@@ -268,9 +268,9 @@ jobs:
 
 Визуализация автоматически генерируется из файла `config/charybdis.keymap` с помощью [Keymap Drawer](https://github.com/caksoylar/keymap-drawer) при каждой сборке.
 
-![Charybdis Keymap](https://raw.githubusercontent.com/KozZzi-ru/BLK-MAIN-SWG-NewZMK/main/keymap-drawer/charybdis.svg)
+![Charybdis Keymap](https://github.com/KozZzi-ru/BLK-MAIN-SWG-NewZMK/blob/refs/heads/main_NOcalc_Studio/keymap-drawer/charybdis.svg)
 
-Визуализация также доступна в репозитории: [keymap-drawer/charybdis.svg](https://github.com/KozZzi-ru/BLK-MAIN-SWG-NewZMK/blob/main_NOcalc/keymap-drawer/charybdis.svg)
+Визуализация также доступна в репозитории: [keymap-drawer/charybdis.svg](https://github.com/KozZzi-ru/BLK-MAIN-SWG-NewZMK/blob/refs/heads/main_NOcalc_Studio/keymap-drawer/charybdis.svg)
 
 ## Настройка чувствительности трекбола
 
@@ -427,6 +427,13 @@ scroll {
 - Быстрый скролл: xy=10, wheel=4, hwheel=8
 - Горизонтальный скролл в 2× медленнее вертикального
 - ЭКСПЕРИМЕНТАЛЬНАЯ конфигурация для тестирования многоуровневого масштабирования
+- 
+### 16.05.2026 - Экстремальные делители скролла
+- в build.yaml добавил поддержку ZMK Studio через studio-rpc-usb-uart, но подключиться не получилось
+- улучшил тайминги для скобок - ушли ложные срабатывания
+- Backspase в тамб кластере настроил на Delete в слое automouse и в num&fun - так удобнее
+- наконец отключил калькулятор!....
+##ToDo 
 
 ## Полезные ссылки
 
