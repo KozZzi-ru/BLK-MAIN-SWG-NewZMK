@@ -145,8 +145,8 @@
         compatible = "zmk,combos";
 
         minus { bindings = <&kp MINUS>; key-positions = <31 30>; };
-        par { bindings = <&kp RIGHT_PARENTHESIS>; key-positions = <31 32>; require-prior-idle-ms = <100>; };
-        par2 { bindings = <&kp LEFT_PARENTHESIS>; key-positions = <27 28>; require-prior-idle-ms = <100>; };
+        par { bindings = <&kp RIGHT_PARENTHESIS>; key-positions = <31 32>; require-prior-idle-ms = <200>; };
+        par2 { bindings = <&kp LEFT_PARENTHESIS>; key-positions = <27 28>; require-prior-idle-ms = <200>; };
         underscore { bindings = <&kp UNDER>; key-positions = <42 43>; };
         bra { bindings = <&kp LEFT_BRACKET>; key-positions = <15 16>; };
         right { bindings = <&kp RIGHT_BRACKET>; key-positions = <19 20>; };
