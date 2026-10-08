@@ -268,9 +268,9 @@ jobs:
 
 Визуализация автоматически генерируется из файла `config/charybdis.keymap` с помощью [Keymap Drawer](https://github.com/caksoylar/keymap-drawer) при каждой сборке.
 
-![Charybdis Keymap](https://github.com/KozZzi-ru/BLK-MAIN-SWG-NewZMK/blob/refs/heads/main_NOcalc_Studio/keymap-drawer/charybdis.svg)
+![Charybdis Keymap](https://raw.githubusercontent.com/KozZzi-ru/BLK-MAIN-SWG-NewZMK/main/keymap-drawer/charybdis.svg)
 
-Визуализация также доступна в репозитории: [keymap-drawer/charybdis.svg](https://github.com/KozZzi-ru/BLK-MAIN-SWG-NewZMK/blob/refs/heads/main_NOcalc_Studio/keymap-drawer/charybdis.svg)
+Визуализация также доступна в репозитории: [keymap-drawer/charybdis.svg](https://github.com/KozZzi-ru/BLK-MAIN-SWG-NewZMK/blob/main/keymap-drawer/charybdis.svg)
 
 ## Настройка чувствительности трекбола
 
