@@ -13,9 +13,12 @@
 #
 ---
 include:
-  - board: nice_nano
+  - board: nice_nano//zmk
     shield: charybdis_left
-  - board: nice_nano
+
+  - board: nice_nano//zmk
     shield: charybdis_right
-  - board: nice_nano
+    snippet: studio-rpc-usb-uart
+
+  - board: nice_nano//zmk
     shield: settings_reset

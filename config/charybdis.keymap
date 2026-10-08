@@ -145,8 +145,8 @@
         compatible = "zmk,combos";
 
         minus { bindings = <&kp MINUS>; key-positions = <31 30>; };
-        par { bindings = <&kp RIGHT_PARENTHESIS>; key-positions = <31 32>; require-prior-idle-ms = <100>; };
-        par2 { bindings = <&kp LEFT_PARENTHESIS>; key-positions = <27 28>; require-prior-idle-ms = <100>; };
+        par { bindings = <&kp RIGHT_PARENTHESIS>; key-positions = <31 32>; require-prior-idle-ms = <200>; };
+        par2 { bindings = <&kp LEFT_PARENTHESIS>; key-positions = <27 28>; require-prior-idle-ms = <200>; };
         underscore { bindings = <&kp UNDER>; key-positions = <42 43>; };
         bra { bindings = <&kp LEFT_BRACKET>; key-positions = <15 16>; };
         right { bindings = <&kp RIGHT_BRACKET>; key-positions = <19 20>; };
@@ -178,7 +178,7 @@
 &kp TAB     &kp Q       &kp W                   &kp E         &kp R          &kp T               &kp Y            &kp U       &kp I      &kp O     &kp P      &kp LEFT_BRACKET
 &kp LSHFT   &kp A       &kp S                   &kp D         &kp F          &kp G               &kp H            &kp J       &kp K      &kp L     &kp SEMI   &kp APOS
 &kp LCTRL   &kp Z       &kp X                   &kp C         &kp V          &kp B               &kp N            &kp M       &kp COMMA  &kp DOT   &kp FSLH   &mo 2
-            &kp LGUI    &lt 1 C_AL_CALCULATOR   &lt 4 ENTER   &kp SPACE      &kp LEFT_ALT        &kp BACKSPACE    &kp RSHIFT  &kp ENTER  
+            &kp LGUI    &mo 1                   &lt 4 ENTER   &kp SPACE      &kp LEFT_ALT        &kp BACKSPACE    &kp RSHIFT  &kp ENTER  
             >; };
 
         num_and_fun { bindings = <
@@ -190,11 +190,11 @@
             >; };
 
         auto_mouse { bindings = <
-&trans  &trans     &trans     &trans  &trans     &trans         &trans  &trans  &trans     &trans     &trans            &trans
-&trans  &trans     &trans     &trans  &trans     &trans         &trans  &trans  &trans     &trans     &trans            &trans
-&trans  &trans     &trans     &trans  &trans     &trans         &trans  &trans  &trans     &trans     &trans            &trans
-&trans  &trans     &trans     &trans  &trans     &trans         &trans  &trans  &mkp LCLK  &mkp RCLK  &lt 3 SCROLLLOCK  &trans 
-        &mkp LCLK  &mkp RCLK  &trans  &trans     &mkp MCLK      &trans  &trans  &trans
+&trans  &trans     &trans     &trans  &trans     &trans         &trans      &trans  &trans     &trans     &trans            &trans
+&trans  &trans     &trans     &trans  &trans     &trans         &trans      &trans  &trans     &trans     &trans            &trans
+&trans  &trans     &trans     &trans  &trans     &trans         &trans      &trans  &trans     &trans     &trans            &trans
+&trans  &trans     &trans     &trans  &trans     &trans         &trans      &trans  &mkp LCLK  &mkp RCLK  &lt 3 SCROLLLOCK  &trans 
+        &mkp LCLK  &mkp RCLK  &trans  &trans     &mkp MCLK      &kp DELETE  &trans  &trans
             >; };
 
         snipe_layer { bindings = <
@@ -210,7 +210,7 @@
 &trans  &trans  &trans             &trans     &trans          &trans          &phrase_proshu   &trans  &trans      &trans  &trans  &trans
 &trans  &trans  &kp LC(BACKSPACE)  &kp LC(Z)  &kp LC(DELETE)  &trans          &phrase_spasibo  &trans  &trans      &trans  &trans  &trans
 &trans  &trans  &kp BACKSPACE      &kp LC(Z)  &kp DELETE      &trans          &trans           &trans  &trans      &trans  &trans  &trans
-        &trans  &trans             &trans     &trans          &trans          &trans           &trans  &kp DELETE    
+        &trans  &trans             &trans     &trans          &trans          &kp DELETE       &trans  &trans      
             >; };
 
         set_bt { bindings = <
