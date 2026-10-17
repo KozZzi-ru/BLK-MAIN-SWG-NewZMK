@@ -66,30 +66,88 @@
             flavor = "tap-preferred";
         };
 
-        // Компактный макрос фразы "Прошу..."
         phrase_proshu: phrase_proshu {
             compatible = "zmk,behavior-macro";
             label = "phrase_proshu";
             #binding-cells = <0>;
-            wait-ms = <1>;
-            tap-ms = <1>;
             bindings =
-                <&macro_tap &kp LS(G)>
-                <&macro_tap &kp H &kp J &kp I &kp E &kp SPACE &kp H &kp F &kp C &kp C &kp V &kp J &kp N &kp H &kp T &kp N &kp M>
-                <&macro_tap &kp LC(ENTER)>;
+                <&macro_press>,
+                <&kp LSHIFT>,
+                <&macro_tap>,
+                <&kp G>,
+                <&macro_release>,
+                <&kp LSHIFT>,
+                <&macro_tap>,
+                <&kp H>,
+                <&macro_tap>,
+                <&kp J>,
+                <&macro_tap>,
+                <&kp I>,
+                <&macro_tap>,
+                <&kp E>,
+                <&macro_tap>,
+                <&kp SPACE>,
+                <&macro_tap>,
+                <&kp H>,
+                <&macro_tap>,
+                <&kp F>,
+                <&macro_tap>,
+                <&kp C>,
+                <&macro_tap>,
+                <&kp C>,
+                <&macro_tap>,
+                <&kp V>,
+                <&macro_tap>,
+                <&kp J>,
+                <&macro_tap>,
+                <&kp N>,
+                <&macro_tap>,
+                <&kp H>,
+                <&macro_tap>,
+                <&kp T>,
+                <&macro_tap>,
+                <&kp N>,
+                <&macro_tap>,
+                <&kp M>,
+                <&macro_press>,
+                <&kp LCTRL>,
+                <&macro_tap>,
+                <&kp ENTER>,
+                <&macro_release>,
+                <&kp LCTRL>;
         };
 
-        // Компактный макрос фразы "Спасибо..."
         phrase_spasibo: phrase_spasibo {
             compatible = "zmk,behavior-macro";
             label = "phrase_spasibo";
             #binding-cells = <0>;
-            wait-ms = <1>;
-            tap-ms = <1>;
             bindings =
-                <&macro_tap &kp LS(C)>
-                <&macro_tap &kp G &kp F &kp C &kp B &kp COMMA &kp J &kp EXCL>
-                <&macro_tap &kp LC(ENTER)>;
+                <&macro_press>,
+                <&kp LSHIFT>,
+                <&macro_tap>,
+                <&kp C>,
+                <&macro_release>,
+                <&kp LSHIFT>,
+                <&macro_tap>,
+                <&kp G>,
+                <&macro_tap>,
+                <&kp F>,
+                <&macro_tap>,
+                <&kp C>,
+                <&macro_tap>,
+                <&kp B>,
+                <&macro_tap>,
+                <&kp COMMA>,
+                <&macro_tap>,
+                <&kp J>,
+                <&macro_tap>,
+                <&kp EXCL>,
+                <&macro_press>,
+                <&kp LCTRL>,
+                <&macro_tap>,
+                <&kp ENTER>,
+                <&macro_release>,
+                <&kp LCTRL>;
         };
     };
 
