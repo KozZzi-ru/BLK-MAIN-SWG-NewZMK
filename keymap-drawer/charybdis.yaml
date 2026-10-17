@@ -388,7 +388,7 @@ combos:
   k: RIGHT
   l: [num_and_fun]
 - p: [39, 40]
-  k: <
+  k: '&lt_gt'
 - p: [43, 44]
   k: '>'
 - p: [0, 12]
