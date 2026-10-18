@@ -8,6 +8,16 @@
 / {
     behaviors {
 
+        // Мини-макрос для ввода <> с курсором между ними
+        lt_gt: less_greater {
+            compatible = "zmk,behavior-macro";
+            label = "LT_GT";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings = <&macro_tap &kp LESS_THAN &kp GREATER_THAN &kp LEFT_ARROW>;
+        };
+
         // Кастомное движение мыши
         mmv_slow: mmv_slow {
             compatible = "zmk,behavior-input-two-axis";
@@ -162,7 +172,7 @@
         ar_dn { bindings = <&kp DOWN_ARROW>; key-positions = <46 47>; layers = <1>; };
         ar_lt { bindings = <&kp LEFT_ARROW>; key-positions = <34 46>; layers = <1>; };
         al_rt { bindings = <&kp RIGHT_ARROW>; key-positions = <35 47>; layers = <1>; };
-        less { bindings = <&kp LESS_THAN>; key-positions = <39 40>; };
+        less { bindings = <&lt_gt>; key-positions = <39 40>; };
         greater { bindings = <&kp GREATER_THAN>; key-positions = <43 44>; };
         logoff { bindings = <&kp LG(L)>; key-positions = <0 12>; };
 
